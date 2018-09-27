@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventRegistrationSystem.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventRegistrationSystem.UnitTests", "EventRegistrationSystem.UnitTests\EventRegistrationSystem.UnitTests.csproj", "{40AD37BE-E15D-44A0-8347-8A385ADF67F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventRegistrationSystem.WebUI", "EventRegistrationSystem.WebUI\EventRegistrationSystem.WebUI.csproj", "{02FB96E6-6A04-4FF2-A450-35F273FC2481}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{40AD37BE-E15D-44A0-8347-8A385ADF67F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40AD37BE-E15D-44A0-8347-8A385ADF67F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40AD37BE-E15D-44A0-8347-8A385ADF67F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FB96E6-6A04-4FF2-A450-35F273FC2481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FB96E6-6A04-4FF2-A450-35F273FC2481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FB96E6-6A04-4FF2-A450-35F273FC2481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FB96E6-6A04-4FF2-A450-35F273FC2481}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
