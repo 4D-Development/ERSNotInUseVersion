@@ -6,8 +6,15 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventRegistrationSystem.Domain", "EventRegistrationSystem.Domain\EventRegistrationSystem.Domain.csproj", "{461A403D-B639-473C-A302-2232A7685A8E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventRegistrationSystem.UnitTests", "EventRegistrationSystem.UnitTests\EventRegistrationSystem.UnitTests.csproj", "{40AD37BE-E15D-44A0-8347-8A385ADF67F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{461A403D-B639-473C-A302-2232A7685A8E} = {461A403D-B639-473C-A302-2232A7685A8E}
+		{02FB96E6-6A04-4FF2-A450-35F273FC2481} = {02FB96E6-6A04-4FF2-A450-35F273FC2481}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventRegistrationSystem.WebUI", "EventRegistrationSystem.WebUI\EventRegistrationSystem.WebUI.csproj", "{02FB96E6-6A04-4FF2-A450-35F273FC2481}"
+	ProjectSection(ProjectDependencies) = postProject
+		{461A403D-B639-473C-A302-2232A7685A8E} = {461A403D-B639-473C-A302-2232A7685A8E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
